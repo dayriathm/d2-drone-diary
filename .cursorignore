@@ -1,0 +1,77 @@
+# ==========================================
+# 1. High-Volume Dependencies & Cache
+# ==========================================
+node_modules/
+**/node_modules/
+.pnpm-store/
+.yarn/
+
+# ==========================================
+# 2. C# .NET 10 & Visual Studio Artifacts
+# ==========================================
+# C# Compiler & MSBuild Output
+bin/
+**/bin/
+obj/
+**/obj/
+out/
+**/out/
+
+# Visual Studio & .NET 10 Meta/Cache
+.vs/
+**/.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx.sqlite
+*.suo
+
+# ==========================================
+# 3. Web & Electron Frontend Build Artifacts
+# ==========================================
+# Vite & Electron Build Output
+.vite/
+**/.vite/
+dist/
+**/dist/
+dist-electron/
+**/dist-electron/
+release/
+**/release/
+
+# Next.js & Vercel
+.next/
+**/.next/
+.vercel/
+**/.vercel/
+.swc/
+
+# ==========================================
+# 4. Databases, Large Media & Logs
+# ==========================================
+# SQLite DB Temporary Journal & WAL Files (AI가 거대 바이너리를 인덱싱하는 것 차단)
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Compiled Binaries & Native Addons
+*.exe
+*.dll
+*.node
+*.pdb
+
+# Logs & Temporary Workspaces
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ==========================================
+# 5. OS & Lock Files
+# ==========================================
+.DS_Store
+Thumbs.db
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

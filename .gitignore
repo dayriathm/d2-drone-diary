@@ -1,0 +1,126 @@
+# ==========================================
+# 1. Operating System & IDE Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+
+# Visual Studio / .NET 10
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx.sqlite
+*.suo
+*.userprefs
+
+# VS Code / Cursor AI
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ==========================================
+# 2. C# / .NET 10 (d2-mp)
+# ==========================================
+**/bin/
+**/obj/
+**/out/
+[Dd]ebug/
+[Rr]elease/
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*log
+*.log
+
+# ==========================================
+# 3. Node.js & JavaScript/TypeScript (Common)
+# ==========================================
+**/node_modules/
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ==========================================
+# 4. Electron & Vite (d2-app)
+# ==========================================
+# Vite / Electron 빌드 임시 및 결과 폴더
+**/.vite/
+**/dist/
+**/dist-electron/
+**/release/
+**/out/
+
+# Electron-builder 및 패키징 아티팩트
+**/builder-effective-config.yaml
+*.app
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# ==========================================
+# 5. Next.js & Vercel (d2-web)
+# ==========================================
+**/.next/
+**/.vercel/
+**/out/
+
+# Next.js 빌드 캐시
+.swc/
+
+# ==========================================
+# 6. Database & Environment Variables (Shared)
+# ==========================================
+# SQLite 임시 Journal 및 WAL 파일 (로컬 테스트용 d2_flight.db 본체는 git 관리)
+*.db-wal
+*.db-shm
+*.db-journal
+
+# 환경 변수 보안 파일 (API Keys, DB Credentials)
+.env
+.env*.local
+.env.production
+.env.staging
+
+# Temporary & Swap Files
+*.swp
+*.swo
+*.tmp
+*~
