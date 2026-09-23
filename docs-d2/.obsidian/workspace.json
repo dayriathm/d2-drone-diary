@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "002-preface-design.md",
+                "file": "001-README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "002-preface-design"
+              "title": "001-README"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f42f8b2f57c645e9",
@@ -177,9 +176,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
+      "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
@@ -188,10 +187,11 @@
   },
   "active": "be21c3b86719f943",
   "lastOpenFiles": [
-    "_WorkDiary/2026-09-23-Project-Start.md",
+    "001-README-KR.md",
     "001-README.md",
-    "gemini-conversation-2026-09-23-04-58-21.md",
     "002-preface-design.md",
+    "_WorkDiary/2026-09-23-Project-Start.md",
+    "gemini-conversation-2026-09-23-04-58-21.md",
     "003-Reference-terms-Libraries.md",
     "004-Architecture-Design.md",
     "미확인 232045.crdownload",
